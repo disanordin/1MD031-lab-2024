@@ -1,119 +1,144 @@
 <!DOCTYPE HTML>
 <html lang="en">
    <head>
-       <title>Burger Online</title>
-       <meta charset="utf-8"/>
+        <link rel="stylesheet" type="text/css" href="/css/style.css">
+        <title>Burger Online</title>
+        <meta charset="utf-8"/>
    </head>
+   
    <body>
-        <header>
-            <h1>Welcome to BurgerOnline</h1>
-        </header> 
-        <main>
-            <section>
-                <h2>Select Burger</h2>
-                <h3>Pick the burger you want by clicking on it</h3>
-                <div style="display: inline-block">
-                    <h4>Krabby Patty - Spongebob</h4>
-                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEitRww8FlCpl27v10IFm74j1DRLTmmo-kkoY8Pck-Y_wJq9J2Dry2omp7LoVLYvOETjklWn5Ooset8SvPuYuzqouZ2qLqx4lmMTyeSs3yLA_a7zmZVbCoRTFlHGw8HnNA6_-b83nkSYdybEVtIMN6lZGtmMg1D8niprwi5LJ_VkAzTONKmCfQU8/w1200-h630-p-k-no-nu/krabby-patty-d3bpdiefjjgf5cxvvcnjomm45m.jpg" alt="Krabby Patty Burger" title="Krabby Patty" style="width: 200px">
-                    <dl>
-                        <dt><strong>Patty:</strong></dt>
-                        <dd>Plankton's Patty with cheese</dd>
-
-                        <dt><strong>Vegteblaes:</strong></dt>
-                        <dd>Lettuce, Onion, Tomatoes, 
-                            Tickles</dd>
-
-                        <dt><strong>Sauce:</strong></dt>
-                        <dd>Ketchup, Mustard</dd>
-                    </dl>
-                </div> 
-                <div style="display: inline-block">
-                    <h4>Best burger in New York - HIMYM</h4>
-                    <img src="data:image/jpeg;base64,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" 
-                    alt="Best in New York-himym" title="Marshalls burger" style="width: 200px">
-                    <dl>
-                        <dt><strong>Patty:</strong></dt>
-                        <dd>Ground Beef</dd>
-    
-                        <dt><strong>Vegteblaes:</strong></dt>
-                        <dd>Slice of tomato, A leaf of lettuce, 
-                            Playful pickle</dd>
-    
-                        <dt><strong>Sauce:</strong></dt>
-                        <dd>Ketchup, Mustard</dd>
-                    </dl>
+        <header class="header">
+                <img class="header_img" src="https://images.ctfassets.net/nwbqij9m1jag/5oLuW3CHDy0E2sMsw0ugGc/30bf03bad7dc8115e9fc995877054b8a/table-seating-kol-helsingborg-press-image-michel-cavalli.jpg" 
+                alt="Restaurang">
+                <div>
+                    <h1 class="headline">Welcome to BurgerOnline</h1>
                 </div>
-                <div style="display: inline-block">
-                        <h4>Big Kahuna Burger - Pulp Fiction</h4>
-                        <img src="https://hips.hearstapps.com/esquire/assets/17/01/1483576575-big-kahuna.jpg" 
-                        alt="Pulp fiction Burger" title="Pulp Fiction burger" style="width: 200px">
+                
+            </header>
+
+        <main>
+            <section id = "burger">
+                <div>
+                    <h2>Select Burger</h2>
+                    <h3>Pick the burger you want by clicking on it</h3>
+                </div>
+            <div class="burger-grid">   
+                <div class="burger-item">
+                    <h4>Krabby Patty - Spongebob</h4>
+                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEitRww8FlCpl27v10IFm74j1DRLTmmo-kkoY8Pck-Y_wJq9J2Dry2omp7LoVLYvOETjklWn5Ooset8SvPuYuzqouZ2qLqx4lmMTyeSs3yLA_a7zmZVbCoRTFlHGw8HnNA6_-b83nkSYdybEVtIMN6lZGtmMg1D8niprwi5LJ_VkAzTONKmCfQU8/w1200-h630-p-k-no-nu/krabby-patty-d3bpdiefjjgf5cxvvcnjomm45m.jpg" alt="Krabby Patty Burger" title="Krabby Patty" style="width: 300px">
+                    <section class="Ingredients">
                         <dl>
                             <dt><strong>Patty:</strong></dt>
-                            <dd>Ground Beef</dd>
+                            <dd><span id = "gluten">Sesame bun</span>  with Plankton's Patty with <span id="lactose">cheese</span></dd>
+
+                            <dt><strong>Vegteblaes:</strong></dt>
+                            <dd>Lettuce, Onion, Tomatoes, 
+                                Tickles</dd>
+
+                            <dt><strong>Sauce:</strong></dt>
+                            <dd>Ketchup, Mustard</dd>
+                        </dl>
+                    </section>
+                </div> 
+
+                <div class="burger-item">
+                    <h4>Best burger in New York - HIMYM</h4>
+                    <img src="data:image/jpeg;base64,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" 
+                    alt="Best in New York-himym" title="Marshalls burger" style="width: 300px">
+                    <section class="Ingredients">
+                        <dl>
+                            <dt><strong>Patty:</strong></dt>
+                            <dd><span id = "gluten">Sesame bun</span> with Ground Beef patty</dd>
         
                             <dt><strong>Vegteblaes:</strong></dt>
-                            <dd>Carmelized onion, Pineapple,</dd>
+                            <dd>Slice of tomato, A leaf of lettuce, 
+                                Playful pickle</dd>
         
                             <dt><strong>Sauce:</strong></dt>
-                            <dd>Ketchup, Teriyaki</dd>
+                            <dd>Ketchup, Mustard</dd>
                         </dl>
-                    </div>     
+                    </section>
+                </div>
 
+                <div class="burger-item">
+                        <h4>Big Kahuna Burger - Pulp Fiction</h4>
+                        <img src="https://hips.hearstapps.com/esquire/assets/17/01/1483576575-big-kahuna.jpg" 
+                        alt="Pulp fiction Burger" title="Pulp Fiction burger" style="width: 300px">
+                        <section class="Ingredients">
+                            <dl>
+                                <dt><strong>Patty:</strong></dt>
+                                <dd><span id = "gluten">Potato bun</span> with Ground Beef</dd>
+            
+                                <dt><strong>Vegteblaes:</strong></dt>
+                                <dd>Carmelized onion, Pineapple,</dd>
+            
+                                <dt><strong>Sauce:</strong></dt>
+                                <dd>Ketchup, Teriyaki</dd>
+                            </dl>
+                        </section>
+                    </div>  
+                </div>    
             </section>
-            <section>
+
+            <section id="information">
                 <h2>Costumer information</h2>
                 <h3>Fill in the information boxes</h3>
-                <form>
-                <p>
-                    <label for="name">Full name</label><br>
-                    <input type="text" id="firstname" name="fn" required="required" placeholder="First- and Last name">
-                </p>
-                
-                <p>
-                    <label for="E-mail">E-mail</label><br>
-                    <input type="text" id="Email" name="fn" required="required" placeholder="E-mail address">
-                </p>
-                
-                <p>
-                    <label for="Street">Street</label><br>
-                    <input type="text" id="Street" name="fn" required="required" placeholder="Street name">
-                </p>
-                
-                <p>
-                    <label for="House Number">House Number</label><br>
-                    <input type="number" id="House Number" name="fn" required="required" placeholder="House Number">
-                </p>
-                
-                <p>
-                    <label for="Payment Method">Payment Method</label><be>
-                    <select id="Payment" name="pym">
-                        <option>Swish</option>
-                        <option>Credit Card</option>
-                        <option>Master Card</option>
-                        <option>Klarna</option>
-                    </select>
-                </p>
 
-                <p>
-                    <label>Gender:</label><br>
-                    <input type="radio" id="male" name="gender" value="male" required>
-                    <label for="male">Male</label><br>
+                <form>
+                    <p>
+                        <label for="name">Full name</label><br>
+                        <input type="text" id="name" name="fn" required="required" placeholder="First- and Last name">
+                    </p>
                     
-                    <input type="radio" id="female" name="gender" value="female">
-                    <label for="female">Female</label><br>
+                    <p>
+                        <label for="E-mail">E-mail</label><br>
+                        <input type="text" id="E-mail" name="fn" required="required" placeholder="E-mail address">
+                    </p>
                     
-                    <input type="radio" id="other" name="gender" value="other">
-                    <label for="other">Other</label>
-                </p>
+                    <p>
+                        <label for="Street">Street</label><br>
+                        <input type="text" id="Street" name="fn" required="required" placeholder="Street name">
+                    </p>
+                    
+                    <p>
+                        <label for="House Number">House Number</label><br>
+                        <input type="number" id="House Number" name="fn" required="required" placeholder="House Number">
+                    </p>
+                    
+                    <p>
+                        <label for="Payment Method">Payment Method</label><br>
+                        <select id="Payment" name="pym">
+                            <option>Swish</option>
+                            <option>Credit Card</option>
+                            <option>Master Card</option>
+                            <option>Klarna</option>
+                        </select>
+                    </p>
+
+                    <p>
+                        <label>Gender:</label><br>
+
+                        <input type="radio" id="male" name="gender" value="male" required >
+                        <label for="male">Male</label><br>
+
+                        
+                        <input type="radio" id="female" name="gender" value="female">
+                        <label for="female">Female</label><br>
+                        
+                        <input type="radio" id="other" name="gender" value="other" checked="checked">
+                        <label for="other">Other</label>
+                    </p>
                 </form>
             </section>  
-            <button type="submit">
-                    <img src="https://cdn.pixabay.com/photo/2013/07/12/17/01/shopping-cart-151684_1280.png" width=17px
-                    >
-                    Place my Order!
-            </button>
+
+            <section>
+                <button type="submit">
+                        <img src="https://cdn.pixabay.com/photo/2013/07/12/17/01/shopping-cart-151684_1280.png" width=17px
+                        >Place my Order!
+                </button>
+            </section>
+
             <footer>
-                
             </footer>  
         </main>
     </body>
