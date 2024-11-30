@@ -1,0 +1,144 @@
+<!DOCTYPE HTML>
+<html lang="en">
+   <head>
+        <link rel="stylesheet" type="text/css" href="/css/style.css">
+        <title>Burger Online</title>
+        <meta charset="utf-8"/>
+   </head>
+   
+   <body>
+        <header class="header">
+                <img class="header_img" src="https://images.ctfassets.net/nwbqij9m1jag/5oLuW3CHDy0E2sMsw0ugGc/30bf03bad7dc8115e9fc995877054b8a/table-seating-kol-helsingborg-press-image-michel-cavalli.jpg" 
+                alt="Restaurang">
+                <div>
+                    <h1 class="headline">Welcome to BurgerOnline</h1>
+                </div>
+                
+            </header>
+
+        <main>
+            <section id = "burger">
+                <div>
+                    <h2>Select Burger</h2>
+                    <h3>Pick the burger you want by clicking on it</h3>
+                </div>
+            <div class="burger-grid">   
+                <div class="burger-item">
+                    <h4>Krabby Patty - Spongebob</h4>
+                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEitRww8FlCpl27v10IFm74j1DRLTmmo-kkoY8Pck-Y_wJq9J2Dry2omp7LoVLYvOETjklWn5Ooset8SvPuYuzqouZ2qLqx4lmMTyeSs3yLA_a7zmZVbCoRTFlHGw8HnNA6_-b83nkSYdybEVtIMN6lZGtmMg1D8niprwi5LJ_VkAzTONKmCfQU8/w1200-h630-p-k-no-nu/krabby-patty-d3bpdiefjjgf5cxvvcnjomm45m.jpg" alt="Krabby Patty Burger" title="Krabby Patty" style="width: 300px">
+                    <section class="Ingredients">
+                        <dl>
+                            <dt><strong>Patty:</strong></dt>
+                            <dd><span id = "gluten">Sesame bun</span>  with Plankton's Patty with <span id="lactose">cheese</span></dd>
+
+                            <dt><strong>Vegteblaes:</strong></dt>
+                            <dd>Lettuce, Onion, Tomatoes, Pickles</dd>
+
+                            <dt><strong>Sauce:</strong></dt>
+                            <dd>Ketchup, Mustard</dd>
+                        </dl>
+                    </section>
+                </div> 
+
+                <div class="burger-item">
+                    <h4>Best burger in New York - HIMYM</h4>
+                    <img src="https://static1.cbrimages.com/wordpress/wp-content/uploads/2024/02/kgdgcfmjc1dldhxdjzfv1ompjqp2d3wxvs4s5pqbfkg-jpg.jpg" 
+                    alt="Best in New York-himym" title="Marshalls burger" style="width: 300px">
+                    <section class="Ingredients">
+                        <dl>
+                            <dt><strong>Patty:</strong></dt>
+                            <dd><span id = "gluten">Sesame bun</span> with Ground Beef patty</dd>
+        
+                            <dt><strong>Vegteblaes:</strong></dt>
+                            <dd>Slice of tomato, A leaf of lettuce, 
+                                Playful pickle</dd>
+        
+                            <dt><strong>Sauce:</strong></dt>
+                            <dd>Ketchup, Mustard</dd>
+                        </dl>
+                    </section>
+                </div>
+
+                <div class="burger-item">
+                        <h4>Big Kahuna Burger - Pulp Fiction</h4>
+                        <img src="https://hips.hearstapps.com/esquire/assets/17/01/1483576575-big-kahuna.jpg" 
+                        alt="Pulp fiction Burger" title="Pulp Fiction burger" style="width: 300px">
+                        <section class="Ingredients">
+                            <dl>
+                                <dt><strong>Patty:</strong></dt>
+                                <dd><span id = "gluten">Potato bun</span> with Ground Beef</dd>
+            
+                                <dt><strong>Vegteblaes:</strong></dt>
+                                <dd>Carmelized onion, Pineapple,</dd>
+            
+                                <dt><strong>Sauce:</strong></dt>
+                                <dd>Ketchup, Teriyaki</dd>
+                            </dl>
+                        </section>
+                    </div>  
+                </div>    
+            </section>
+
+            <section id="information">
+                <h2>Costumer information</h2>
+                <h3>Fill in the information boxes</h3>
+
+                <form>
+                    <p>
+                        <label for="name">Full name</label><br>
+                        <input type="text" id="name" name="fn" required="required" placeholder="First- and Last name">
+                    </p>
+                    
+                    <p>
+                        <label for="E-mail">E-mail</label><br>
+                        <input type="text" id="E-mail" name="fn" required="required" placeholder="E-mail address">
+                    </p>
+                    
+                    <p>
+                        <label for="Street">Street</label><br>
+                        <input type="text" id="Street" name="fn" required="required" placeholder="Street name">
+                    </p>
+                    
+                    <p>
+                        <label for="House Number">House Number</label><br>
+                        <input type="number" id="House Number" name="fn" required="required" placeholder="House Number">
+                    </p>
+                    
+                    <p>
+                        <label for="Payment Method">Payment Method</label><br>
+                        <select id="Payment" name="pym">
+                            <option>Swish</option>
+                            <option>Credit Card</option>
+                            <option>Master Card</option>
+                            <option>Klarna</option>
+                        </select>
+                    </p>
+
+                    <p>
+                        <label>Gender:</label><br>
+
+                        <input type="radio" id="male" name="gender" value="male" required >
+                        <label for="male">Male</label><br>
+
+                        
+                        <input type="radio" id="female" name="gender" value="female">
+                        <label for="female">Female</label><br>
+                        
+                        <input type="radio" id="other" name="gender" value="other" checked="checked">
+                        <label for="other">Other</label>
+                    </p>
+                </form>
+            </section>  
+
+            <section>
+                <button type="submit">
+                        <img src="https://cdn.pixabay.com/photo/2013/07/12/17/01/shopping-cart-151684_1280.png" width=17px
+                        >Place my Order!
+                </button>
+            </section>
+
+            <footer>
+            </footer>  
+        </main>
+    </body>
+</html>

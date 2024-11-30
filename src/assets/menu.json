@@ -1,21 +1,25 @@
 [{
-    "name": "Veggie Bliss", 
+    "name": "Krabby Patty", 
     "kCal": 500, 
-    "url": "https://images-bonnier.imgix.net/files/ifo/production/20220412084608/Kødfri-burger-1.jpg?auto=compress,format&w=1024%201024w",
-    "lactose": false, 
-    "gluten": false
+    "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEitRww8FlCpl27v10IFm74j1DRLTmmo-kkoY8Pck-Y_wJq9J2Dry2omp7LoVLYvOETjklWn5Ooset8SvPuYuzqouZ2qLqx4lmMTyeSs3yLA_a7zmZVbCoRTFlHGw8HnNA6_-b83nkSYdybEVtIMN6lZGtmMg1D8niprwi5LJ_VkAzTONKmCfQU8/w1200-h630-p-k-no-nu/krabby-patty-d3bpdiefjjgf5cxvvcnjomm45m.jpg",
+    "lactose": true, 
+    "gluten": true
 },
 {
-    "name": "Veggie Bliss", 
-    "kCal": 500, 
-    "url": "https://images-bonnier.imgix.net/files/ifo/production/20220412084608/Kødfri-burger-1.jpg?auto=compress,format&w=1024%201024w",
+    "name": "Best burger in New York", 
+    "kCal": 400, 
+    "url": "https://static1.cbrimages.com/wordpress/wp-content/uploads/2024/02/kgdgcfmjc1dldhxdjzfv1ompjqp2d3wxvs4s5pqbfkg-jpg.jpg",
     "lactose": false, 
-    "gluten": false
+    "gluten": true
 },
 {
-    "name": "Veggie Bliss", 
-    "kCal": 500, 
-    "url": "https://images-bonnier.imgix.net/files/ifo/production/20220412084608/Kødfri-burger-1.jpg?auto=compress,format&w=1024%201024w",
+    "name": "Big Kahuna Burger", 
+    "kCal": 300, 
+    "url": "https://hips.hearstapps.com/esquire/assets/17/01/1483576575-big-kahuna.jpg",
     "lactose": false, 
-    "gluten": false
+    "gluten": true
 }]
+
+
+
+  
